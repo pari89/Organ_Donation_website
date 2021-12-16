@@ -1,0 +1,12 @@
+.Flex {
+  display: flex;
+}
+.Inline {
+  display: inline;
+}
+.Block {
+  display: block;
+}
+.Column {
+  flex-flow: column wrap;
+}
