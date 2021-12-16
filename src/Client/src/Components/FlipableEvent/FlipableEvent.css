@@ -1,0 +1,106 @@
+.Flip-Wrapper{
+width:500px;
+
+display:flex;
+flex-flow: column nowrap;
+margin-bottom:16vh;
+transition: 1000ms ease-in;
+cursor: pointer;
+align-self: center;
+position: relative;
+height: 600px;
+border-radius: 12px;
+padding: 30px;
+}
+.Flip-Container{
+    display:flex;
+    flex-flow: column nowrap;
+position:absolute;
+max-width:500px;
+width: 100%;
+transition: 1000ms ease-in;
+cursor: pointer;
+height: 600px;
+box-shadow: 5px 5px 15px hsl(0,0%,60%),-5px -5px 15px hsl(0,0%,60%) ;
+border-radius: 12px;
+}
+.Flip-Front-Wrapper{
+    position: absolute;
+    max-width:500px;
+    width: 100%;
+    display:flex;
+    backface-visibility: hidden;
+    transition: 500ms ease-in;
+    opacity: 1;
+    height: 600px;
+}
+.Flip-Front-Image{
+    max-width:500px;
+    width: 100%;
+    position: absolute;
+    max-width:700px;
+    width: 100%;
+    display:flex;
+    height: 600px;
+    transition: 500ms ease-in;
+    border-radius: 12px;
+}
+.Flip-Back-Wrapper{
+position: absolute;
+    display:flex;
+    flex-flow: column nowrap;
+    transform: rotateY(180deg);
+    opacity: 0;
+    flex:1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0,0%,10%);
+    border-radius: 12px;
+    width: 100%;
+  max-width: 500px;
+}
+.Flip-Wrapper:hover .Flip-Container{
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  transform: rotateY(180deg);
+  transition: 1000ms ease-in;
+  
+}
+.Flip-Wrapper:hover .Flip-Back-Wrapper{
+    transition: 1000ms ease-in;
+    opacity: 1;
+   
+}
+.Flip-Wrapper:hover .Flip-Front-Wrapper{
+opacity: 0;
+transition: 1000ms ease-in;
+}
+.Flip-Back-Title{
+font-size: 4vmin;
+font-weight: 550;
+text-align: center;
+color:rgb(14, 95, 187)
+}
+.Flip-Description-Holder{
+    margin-top:14vh;
+}
+.Flip-Back-Details{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+     margin-top:5vh;
+     width: 100%;
+  max-width: 500px;
+}
+
+
+.Flip-Event-Text{
+    font-size: 3vmin;
+    font-weight: 400;
+    color:white;
+    width: 100%;
+  max-width: 500px;
+}
+

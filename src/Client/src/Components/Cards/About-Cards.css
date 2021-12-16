@@ -1,0 +1,102 @@
+.Image-Card-Wrapper{
+    margin-top: 90px;
+    margin-right: 30px;
+    max-width: 400px;
+    width: 100%;
+    display:flex;
+    flex-flow:column nowrap;
+    height:auto;
+    overflow-y: hidden;
+    border-radius: 5%;
+    position: relative;
+    cursor: pointer;
+}
+
+.Image-Card-Image-Holder{
+width: 100%;
+height: auto;
+position: relative;
+border-radius: 5%;
+cursor: pointer;
+}
+
+.Image-Card-Image{
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.Image-Card-Description{
+width: 100%;
+height: 180px;
+bottom:-110px;
+position: absolute;
+align-self: center;
+justify-self: center;
+text-align: center;
+cursor: pointer;
+background-color: rgba(171, 209, 115,0.7);
+transition: 500ms ease-in;
+}
+.Image-Card-Wrapper:hover .Image-Card-Description{
+bottom:0px;
+}
+.Image-Card-Wrapper:hover .Image-Card-Description-Info{
+    display: initial;
+}
+
+.Image-Card-Description-Title{
+    font-size: 5vmin;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Image-Card-Description-Info{
+    cursor: pointer;
+    display:none;
+}
+
+@media only screen and (max-width:866px){
+    .Image-Card-Wrapper{
+        max-width: 550px;
+       
+    }
+    .Image-Card-Description{
+        bottom:-92px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .Image-Card-Description{
+        bottom:-125px;
+    }
+    .Image-Card-Wrapper{
+        max-width: 100%;
+        margin-right: none;
+    }
+    .Image-Card-Wrapper:hover .Image-Card-Description{
+        bottom:-50px;
+        }
+
+}
+
+@media only screen and (max-width:430px){
+    .Image-Card-Description{
+        bottom:-150px;
+    }
+    .Image-Card-Wrapper:hover .Image-Card-Description{
+        bottom:-120px;
+        }
+        .Image-Card-Description-Info{
+            cursor: pointer;
+            display:none;
+            font-size: 10px;
+            
+        }
+}
+
+
+
+
+
