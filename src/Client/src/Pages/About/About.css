@@ -1,0 +1,75 @@
+.About-Wrapper {
+  display: flex;
+  height: 100%;
+  max-height: inherit;
+  background-image: none;
+  overflow-x: hidden;
+  flex-flow: column nowrap;
+  
+}
+
+.About-Content {
+  margin-right: 3%;
+  margin-left: 3%;
+  flex: 1;
+  display: flex;
+  justify-items: center;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  
+}
+
+.About-Begin_pic {
+  width: 100%;
+  display: flex;
+}
+
+.Navigation-Wrapper {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 40%;
+  align-self: flex-start;
+  justify-self: start;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.About-Header-Image{
+shape-outside: url(../../Images/Compass.png);  
+filter: drop-shadow(30px 30px 10px  rgba(0,0,0,0.6));
+width: 577px;
+align-self: left;
+}
+
+.Navigation-Text {
+  text-align: end;
+  font-size: 10vmin;
+  min-width: 400px;
+}
+.About-Nav-Items-Wrapper {
+  margin-top: 90px;
+  display: flex;
+  flex: 1;
+}
+.About-Nav-Items {
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navigation-Wrapper {
+    min-height: 30%;
+  }
+  .About-Nav-Items{
+justify-content: flex-start;
+align-items: center;
+  }
+  .About-Header-Image{
+    width:100%;
+  }
+}
