@@ -1,0 +1,12 @@
+.New-Story-Wrapper{
+display:flex;
+width:100%;
+max-width: 300px;
+align-self: center;
+}
+
+.New-Story-Image{
+width:100%;
+max-width:200px;
+}
+
