@@ -1,0 +1,63 @@
+
+.Why-Donate-Content-Holder{
+display:flex;
+flex-flow: row wrap;
+width:100%;
+flex:1;
+}
+.xy-header-Image{
+width:100%;
+max-width: 800px;
+}
+
+
+.Why-Donate-Container{
+    border-right: 3px solid black;
+   
+display:flex;
+flex:0.75;
+flex-flow: column nowrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.Why-Donate-Image{
+    width:100%;
+    max-width: 900px;
+    box-shadow: 3px 3px 15px 3px rgba(92, 77, 77, 0.3);
+    border-radius: 10px;
+    margin-top:14vh;
+    align-self: center;
+}
+
+.Side-Bar{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    flex:0.25;
+}
+
+
+
+
+
+
+@media only screen and (max-width:1064px){
+    .Why-Donate-Image{
+        width:80%;
+        max-width: 80%;
+    }
+}
+
+
+@media only screen and ( max-width: 670px  ){
+    .Why-Donate-Content-Holder{
+        flex-flow: column nowrap;
+        
+    }
+    .Why-Donate-Container{
+        border:none;
+    }
+
+}

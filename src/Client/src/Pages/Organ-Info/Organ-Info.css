@@ -1,0 +1,46 @@
+.Complete-Story-Wrapper{
+  display:flex;
+  flex-flow: column nowrap;
+  padding:20px 20px;
+  border-color: red;
+  width:100;
+}
+
+.Complete-Story-Image-Holder{
+  max-width: 600px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+}
+
+.Complete-Story-Image{
+  max-width: 600px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+}
+
+
+.Complete-Story-Title-Holder{
+  max-width: 500px;
+  width: 100%;
+}
+
+.Complete-Story-Title{
+  font-size: 6vmin;
+  font-weight: 600;
+  max-width: 500px;
+  width: 100%;
+}
+
+.COmplete-Story-Description-Holder{
+  width: 80%;
+}
+.COmplete-Story-Description{
+  width:100%;
+  font-size: 4vmin;
+  font-weight: 520;
+}
+
+
+

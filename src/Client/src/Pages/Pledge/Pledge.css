@@ -1,0 +1,92 @@
+.Pledge-Wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-flow: row wrap;
+    height:100%;
+
+
+}
+
+.Pledge-Content{
+    width: 90%;
+  background-color: inherit;
+  display:flex;
+  flex-flow: column nowrap;
+  background-image:linear-gradient( to right, rgba(47, 241, 255,0.8));
+}
+
+.Pledge-Header{
+    width: 90%;
+    background-color: inherit;
+  display:flex;
+  flex-flow: column nowrap;
+  position: relative;
+  align-self: center;
+  background-image:linear-gradient(to right,ivory,rgba(47, 241, 255,0.8));
+
+}
+
+.Pledge-Content img{
+width:100%;
+max-width:1300px;
+background-image: inherit;
+filter:drop-shadow(rgba(0,0,0,0.3),120px,150px,30px);
+background-image:linear-gradient( to right, 30% rgba(47, 241, 255,0.8));
+}
+
+.Pledge-Content h1{
+   
+    font-size:5.5vmin;
+    font-weight: 800;
+    position: absolute;
+  left:10%;
+  top:60%;
+    }
+    
+
+.Pledge-Content p{
+    text-align: start;
+    color: rgb(148, 137, 137);
+    font-size: 4vmin;
+    font-weight: 500;
+    padding-left: 5%;
+}
+
+.Pledge-Content NavLink{
+text-decoration: none;
+color: black;
+}
+
+
+.Pledge-NavLink{
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.Pledge-Button{
+    align-self: center;
+    justify-self: center;
+    background-color: grey;
+    width:15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40vh;
+    margin-top: 20vh;
+    box-shadow: -3px -3px 15px rgba(39, 37, 37, 0.562),3px 3px 15px rgba(39, 37, 37, 0.562);
+border-radius: 5.5px;
+text-decoration: none;
+min-width: max-content;
+}
+.Pledge-Button span{
+    font-weight: 600;
+    font-size:4vmin ;
+  text-align: center;
+padding: 1.7vmin 1.9vmin;
+text-decoration: none;
+color: black;
+}

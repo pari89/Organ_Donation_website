@@ -1,0 +1,54 @@
+.Home-Wrapper{
+display:flex;
+flex-flow: column nowrap;
+align-self: center;
+justify-content: space-around;
+flex:1;
+background-color: black;
+width: 100%;
+padding: 50px;
+
+}
+.Body-Home{
+  display:flex;
+  width:90%;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-content: center;
+  margin-top: 10vh;
+}
+
+
+.Carousel-home{
+  width:90%;
+  max-height:700px;
+}
+.Home-Header{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Carousel-home img{
+  width: 100%;
+  max-height:620px;
+}
+
+.Custom-Insert {
+  position: relative;
+  max-width: 50%;
+  justify-content: flex-end;
+  align-content: center;
+  display: flex;
+  align-self: flex-end;
+}
+
+.CustomQuote {
+  text-align: end;
+  font-size: 7vmin;
+  font-weight: bolder;
+  align-self: flex-end;
+  color: white;
+}
+

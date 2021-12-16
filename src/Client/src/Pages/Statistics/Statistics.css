@@ -1,0 +1,160 @@
+
+.PrevOverflowX{
+    max-width: 100%;
+    flex-wrap: nowrap;
+}
+.FillX{
+    width:100%;
+}
+
+.Statistics-Wrapper{
+    height: inherit;
+    width: 100%;
+    margin:0px;
+    border:0px;
+    display: flex;
+    flex-flow: column;
+    overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgba(211, 208, 203,0.6);
+}
+.Statistics-Content{
+    width:90%;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-content: center;
+  align-self: center;
+ background-color: white;
+}
+.Statistics-Header-Wrapper{
+    margin-top: 3%;
+    flex:0.27;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.Statistics-Header{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+}
+.Header-Image-Holder{
+    width: 100%;
+    max-width: 600px;
+}
+.Header-Image{
+    width: 100%;
+    max-width: 600px;
+}
+
+.Header-Text-Holder{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-left: 4%;
+}
+.Header-Text{
+text-align: start;
+font-size: 7vmin;
+align-self: flex-start;
+justify-self: flex-end;
+font-weight: 480;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: Tahoma;
+}
+.Statistics-Main-Content-Wrapper{
+    flex:1;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17%;
+}
+.Statistics-Main-Content{
+    flex:1;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+    
+}
+
+.Post-Death{
+    display:flex;
+    width: 100%;
+    flex-flow: row nowrap;
+}
+
+.Hand-Decay{
+    width:100%;
+}
+.Text-Dec{
+font-weight: 600;
+    font-size:4vmin ;
+  text-align: center;
+
+text-decoration: none;
+color: black;}
+
+.Post-decay-Holder{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.Post-Decay-Text{
+    background-color: rgb(247, 171, 209);
+    align-self:flex-end;
+    padding:10px;
+    min-width: 300px;
+}
+.How-USe{
+    width:100%;
+    display: flex;
+    flex-flow: column nowrap;
+   margin-top:38%;
+}
+.How-Use-Image-Holder{
+    width:900px;
+    align-self: center;
+    border-radius:60px;
+    box-shadow: rgba(0,0,0,0.3) 15px 12px 30px;
+}
+
+.How-Use-Text{
+    width: 700px;
+align-self: center;
+margin-top:40px;
+margin-left: 30px;
+}
+
+.Heart-Image{
+    width:240px;
+    box-shadow: rgba(0,0,0,0.3) 18px 18px 15px inset, rgba(0,0,0,0.3) 18px 18px 15px outset;;
+}
+
+
+
+
+.Statistics-Organ-Wrapper{
+    display:flex;
+    width:80%;
+    flex-direction: column;
+    margin-top:25vh;
+    align-self: center;
+}
+.Statistics-Organ-Info-Content{
+width: 100%;
+align-self: center;
+display: flex;
+flex-flow: column nowrap;
+align-content: center;
+justify-content: space-around;
+}
+
+@media only screen and (max-width:843px){
+.Post-Death{
+    display:block;
+}
+}

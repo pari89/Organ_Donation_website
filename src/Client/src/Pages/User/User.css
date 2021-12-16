@@ -1,0 +1,166 @@
+.User-Home-Wrapper{
+    display:flex;
+    flex-flow: row nowrap;
+    width:100%;
+    flex:1;
+}
+.User-Details-Wrapper{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    flex:0.75;
+    background-color: black;
+}
+.User-Avatar{
+    width:140px;
+    border-radius: 50%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.User-Home-Side-Pic{
+  flex:0.25;
+}
+.User-Home-Side-Pic img{
+    max-width: 375px;
+    width:100%;
+}
+.User-Home-Details{
+color:white;
+font-size: 4vmin;
+font-weight: 400;
+}
+.User-UserName{
+    font-size: 5.3vmin;
+    font-weight: 550;
+}
+.User-Home-Details-Container{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    flex:0.35;
+}
+.Contribution-Details{
+    flex:0.65;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.User-Story-Status{
+color:white;
+font-weight: 600;
+font-size: 2.5vmin;
+text-align: center;
+}
+.Flipable-Story-Pic{
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    height: 208.5px;
+    object-fit: cover;
+}
+.Flip-Story-Wrapper{
+    width: 300px;
+   cursor: pointer;
+    position: relative;
+    transition: 1000ms ease-in;
+    
+    z-index: 30;
+    border-radius: 8px;
+    height: 208.5px;
+}
+.Flip-Story-Container{
+    position: absolute;
+    width: 300px;
+    transition: 1000ms ease-in;
+    display:flex;
+    box-shadow: 5px 5px 10px hsl(0,0%,80%),  -3px -3px 6px hsl(0,0%,80%);
+    z-index: 30;
+    border-radius: 8px;
+    height: 208.5px;
+}
+
+.Flip-Story-Wrapper:hover .Flip-Story-Container{
+    transform: rotateY(180deg);
+    transition: 1000ms ease-in;
+}
+.Flip-Story-Wrapper:hover .Flip-Story-Front-Wrapper{
+    opacity: 0;
+    transition: 1000ms ease-in;
+}
+
+.Flip-Story-Wrapper:hover .Flip-Story-Back-Wrapper{
+    opacity: 1;
+    transition: 1000ms ease-in;
+    
+}
+
+.Flip-Story-Front-Wrapper{
+    position: absolute;
+    width: 300px;
+    display:flex;
+    transition: 1000ms ease-in;
+    opacity: 1;
+    z-index: 10;
+    border-radius: 8px;
+}
+.Flip-Story-Back-Wrapper{
+    position: absolute;
+    opacity: 0;
+    transform: rotateY(180deg);
+    transition: 1000ms ease-in;
+    width: 300px;
+    height: 208.5px;
+    display:flex;
+    z-index: 1;
+    border-radius: 8px;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.User-Button-Holder{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.User-Story-Card-Buttons{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    border-radius: 2px;
+}
+.color1{
+    background-color: rgba(201, 130, 37,0.7);
+    box-shadow: 2px 2px 5px rgba(201, 130, 37,0.7);
+    margin-right: 30px;
+}
+
+.color2{
+    background-color: rgba(99, 38, 179,0.76);
+    box-shadow: 2px 2px 5px rgba(99, 38, 179,0.76);
+}
+
+.Flip-Event-Extra-Wrapper{
+
+}
+
+.Flip-Event-Extra-Back{
+    background-color: white;
+}
+
+.Flip-Event-Extra-Text{
+    color:black;
+}
+
+
