@@ -1,0 +1,64 @@
+
+.Events-Container{
+
+    align-self: center;
+display:flex;
+flex:0.8;
+flex-flow: row wrap;
+justify-content: space-around;
+align-content: center;
+width: 92%;
+
+}
+
+.Event-Contact-Details{
+    position: absolute;
+    z-index: 2;
+    min-width: 200px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 4vmin;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    transform: translate(75%,20%);
+    height: max-content;
+}
+.Event-Header{
+    position: relative;
+z-index: 1;
+display:flex;
+flex-flow: row nowrap;
+justify-content: center;
+margin-bottom: 10vh;
+}
+
+.Event-Header-Image{
+    max-width: 1300px;
+    width: 100%;
+}
+.New-Events-Wrapper{
+    flex:0.2;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.Event-Content-Holder{
+    display:flex;
+    flex:0.2;
+    flex-flow: row nowrap;
+    width:100%;
+}
+
+@media only screen and ( max-width:600px){
+    .Events-Content-Holder{
+      flex-flow: column wrap;
+    }
+    .Events-Container{
+     border-right:none;
+     flex:1;
+    }
+    .New-Events-Wrapper{
+        flex:1;
+    }
+}
